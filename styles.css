@@ -1,0 +1,135 @@
+/* Global styles */
+body{
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #0b3c5d;
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+}
+/* Header and link styles*/
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    min-height: 115px;
+    background: #1d2731;
+    color: #f8f8ff;
+    overflow: hidden;
+    border-bottom: solid 3px #d9b310;
+}
+
+header .container{
+    margin: auto 0;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    margin: auto ;
+    overflow: hidden;
+}
+
+.avatar{
+    margin: auto;
+}
+
+.avatar img{
+    width: 100px;
+    height: 100px;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-left: 10px;  
+}
+
+.about-me h1{
+    font-size: 30px;
+    padding:0;
+    margin:0;
+}
+
+.about-me p{
+    background-color: #d9b310;
+    color: #1d2731;
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav Bar*/
+nav{
+    align-self: flex-start;
+}
+
+ul{
+   
+    border: 2px #f8f8ff solid;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.links li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.links li.highlight{
+    background-color: #d9b310;
+    color: #0b3c5d;
+}
+
+li a{
+    text-decoration: none;
+    color: inherit;
+} 
+
+.welcome-showcase{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.welcome{
+    width: 100%;
+    text-align:center;  
+    margin-top: 110px;  
+}
+
+canvas {
+    display: inline;
+ }
+
+/* Footer*/
+footer{
+    min-height: 75px;
+    border-top: solid 3px #d9b310;
+    background-color:  #1d2731;
+    color: #f8f8ff;
+    text-align: center; 
+}
+
+footer p {
+  margin-top: 20;
+}
